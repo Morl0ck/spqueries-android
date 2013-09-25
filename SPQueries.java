@@ -1,5 +1,3 @@
-package com.teg.tegcontacts;
-
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.Locale;
@@ -28,7 +26,7 @@ public final class SPQueries {
 	private String postResponse = "";
 	private String soapBody = "";
 	private Activity act;
-
+	
 	public enum WSOperation {
 		GETLISTITEMS("GetListItems", "_vti_bin/Lists.asmx", "http://schemas.microsoft.com/sharepoint/soap/GetListItems");
 		
